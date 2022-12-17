@@ -1,7 +1,7 @@
 const express = require("express")
 const dotenv = require("dotenv").config()
 const ejsMate = require('ejs-mate')
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 3000
 const app = express()
 const path = require('path')
 // Configuring openai with openai api key
