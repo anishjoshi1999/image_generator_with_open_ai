@@ -20,6 +20,9 @@ app.use(express.static(__dirname + '/public'));
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 // Routes
+app.get('/',(req,res)=> {
+    res.redirect('/openai')
+})
 app.get('/openai', (req, res) => {
     res.render('home')
 })
