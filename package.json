@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/anishjoshi1999/image_generator_with_open_ai#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
     "ejs-mate": "^4.0.0",
