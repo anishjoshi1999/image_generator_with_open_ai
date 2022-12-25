@@ -55,6 +55,9 @@ app.post('/openai/generateimage',async (req,res)=> {
         })
     }
 })
+app.get('/openai/chatgpt',(req,res)=> {
+    res.render('openai/chatgpt/show')
+})
 app.listen(port, () => {
     console.log(`Server started on ${port}`)
 })
